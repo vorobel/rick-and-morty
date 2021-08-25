@@ -1,0 +1,15 @@
+.render-filter {
+  background-color: lightgray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.render-filter-container {
+  display: flex;
+  align-items: center;
+}
+
+.render-filter-form {
+  display: flex;
+  align-items: center;
+}
