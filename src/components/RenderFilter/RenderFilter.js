@@ -19,7 +19,7 @@ function RenderFilter() {
     <section className='render-filter'>
       <div className='container render-filter-container'>
         <Box mr={5}>
-          <ButtonGroup variant="contained" color="inherit" aria-label="contained primary button group" mr={2}>
+          <ButtonGroup variant="contained" color="inherit" aria-label="contained outlined button group" mr={2}>
             <Button>One</Button>
             <Button>Two</Button>
             <Button>Three</Button>
