@@ -13,3 +13,11 @@
   display: flex;
   align-items: center;
 }
+
+.active {
+  background: green;
+}
+
+.btn {
+  padding: 20px 40px;
+}
