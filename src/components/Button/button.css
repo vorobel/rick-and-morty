@@ -6,6 +6,7 @@
   cursor: pointer;
   border: 1px solid transparent;
   transition: .4s;
+  width: 100%;
 }
 
 .btn:hover {

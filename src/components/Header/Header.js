@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
 
-function Header({ favouriteCount }) {
+function Header({ favoriteCount }) {
   return (
     <header className='header'>
       <div className='container header-container'>
@@ -11,13 +11,13 @@ function Header({ favouriteCount }) {
               <a href='/#'>Characters</a>
             </li>
             <li>
-              <a href='/#'>Favourites</a>
+              <a href='/#'>Favorites</a>
             </li>
           </ul>
         </nav>
         <div>
           <i className="far fa-heart"></i>
-          <span>{favouriteCount}</span>
+          <span>{favoriteCount}</span>
         </div>
       </div>
     </header>

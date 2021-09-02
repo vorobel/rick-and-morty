@@ -1,9 +1,9 @@
 import React from 'react';
 import './button.css'
 
-function ButtonDefault({ text }) {
+function ButtonDefault({ text, hadleFavorite}) {
   return(
-    <button className='btn'>{text}</button>
+    <button className='btn' onClick={hadleFavorite}>{text}</button>
   )
 }
 

@@ -3,14 +3,14 @@ import CardDefault from '../Card/Card'
 import './cardContainer.css';
 
 
-function CardContainer({ cardsData, hadleFavourite}) {
+function CardContainer({ cardsData, hadleFavorite}) {
 
   return(
     <div className='container'>
       <ul className='cards-container'>
         {cardsData.map(item => {
           return (
-            <CardDefault key={item.id} className='cards-container' cardsData={item} hadleFavourite={() => {hadleFavourite(item.id)}}/>
+            <CardDefault key={item.id} className='cards-container' cardsData={item} hadleFavorite={hadleFavorite}/>
           )
         })}
 
